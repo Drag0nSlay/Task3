@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #0078d7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0.5rem 0;
+  }
+  
+  main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .task {
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task h2 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .task input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #0078d7;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  
+  button:hover {
+    background: #005a9e;
+  }
+  
+  #flag-popup {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f4f4f4;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    display: none; /* Initially hidden */
+  }
+  
+  #flag-popup.show {
+    display: block; /* Ensure it's displayed when needed */
+  }
+  
+  .hidden {
+    display: none; /* Class to hide flag */
+  }  

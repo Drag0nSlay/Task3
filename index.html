@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Number Investigation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Phone Number Investigation</h1>
+    <p>Simulate an OSINT investigation by following the tasks below and recording your findings.</p>
+  </header>
+
+  <main>
+    <section class="task">
+      <h2>Task 1: Search Engine Query</h2>
+      <input type="text" id="task1-phone" placeholder="Phone Number">
+      <input type="text" id="task1-search" placeholder="Search Engine Used">
+      <input type="text" id="task1-summary" placeholder="Result Summary">
+      <div id="task1-message"></div>
+    </section>
+  
+    <section class="task">
+      <h2>Task 2: Reverse Phone Lookup</h2>
+      <input type="text" id="task2-carrier" placeholder="Carrier">
+      <input type="text" id="task2-location" placeholder="Location">
+      <div id="task2-message"></div>
+    </section>
+  
+    <section class="task">
+      <h2>Task 3: Social Media Search</h2>
+      <input type="text" id="task3-platform" placeholder="Social Media Platform">
+      <input type="text" id="task3-profile" placeholder="Associated Profile">
+      <div id="task3-message"></div>
+    </section>
+  
+    <section class="task">
+      <h2>Task 4: Metadata Analysis</h2>
+      <input type="text" id="task4-image" placeholder="Image Associated">
+      <input type="text" id="task4-date" placeholder="Date Taken">
+      <input type="text" id="task4-camera" placeholder="Camera Model">
+      <div id="task4-message"></div>
+    </section>
+  
+    <section class="task">
+      <h2>Task 5: Spam or Scam Report</h2>
+      <input type="text" id="task5-website" placeholder="Report Website">
+      <input type="text" id="task5-scam" placeholder="Scam Reported (Yes/No)">
+      <div id="task5-message"></div>
+    </section>
+  
+    <button onclick="generateReport()">Generate Full Report</button>
+    <button onclick="saveAllFindings()">Save All Findings</button>
+    <div id="full-report"></div>
+  
+    <!-- Pop-up Flag Animation -->
+    <div id="flag-popup" class="hidden">
+      <p>THM{OSINT_is_FUN}</p>
+    </div>
+  </main>      
+  
+  <footer>
+    <p>Created for OSINT practice | © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
