@@ -87,9 +87,7 @@ function generateReport() {
     // Show the flag popup
     showFlagPopup();
 }
-
-// Securely store the encoded flag (Base64 encoded)
-const flag = atob("VEhNe09TSU5UX2lzX0ZVTn0="); // Decoded: THM{OSINT_is_FUN}
+const flag = atob("VEhNe09TSU5UX2lzX0ZVTn0=");
 
 // Function to show the flag popup
 function showFlagPopup() {
