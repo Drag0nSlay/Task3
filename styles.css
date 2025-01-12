@@ -102,3 +102,8 @@ input.error {
 .show {
     display: block;
 }
+.warning {
+  color: orange;
+  font-size: 0.9rem;
+  margin-top: 5px; /* Adds space between the input field and warning */
+}
