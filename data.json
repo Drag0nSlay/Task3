@@ -8,7 +8,7 @@
   "profile": "John Doe, Business account for XYZ Enterprises",
   "image": "Yes",
   "date": "2024-01-09",
-  "camera": "Canon EOS 5D Mark IV",
+  "camera": "Canon EOS 5D Mark IV", // If you've made it this far, you're on the right track of OSINT...
   "website": "800Notes",
   "scam": "Yes"
 }
