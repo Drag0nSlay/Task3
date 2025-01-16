@@ -1,7 +1,13 @@
 // Function to fetch and validate data from external JSON
 async function fetchValidationData() {
     try {
-      const response = await fetch('http://localhost:3000'); // You can also use localStorage for this
+      const response = await fetch('https://backendtask3.vercel.app/api/data', {
+        method: 'GET',  // Ensure you're using the correct HTTP method
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        mode: 'cors',  // Enable cross-origin requests
+      }); // You can also use localStorage for this
       const data = await response.json();
       return data;
     } catch (error) {
