@@ -1,7 +1,7 @@
 // Function to fetch and validate data from external JSON
 async function fetchValidationData() {
     try {
-      const response = await fetch('data.json'); // You can also use localStorage for this
+      const response = await fetch('http://localhost:3000'); // You can also use localStorage for this
       const data = await response.json();
       return data;
     } catch (error) {
